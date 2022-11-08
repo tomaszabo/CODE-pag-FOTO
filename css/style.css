@@ -6,15 +6,11 @@ body {
 	font-family: "Roboto", sans-serif;
 	line-height: 1.3;
 	font-size: 100%;
-	background-color: #006969;
+	background-color: #ffffff;
+	min-height: 100vh;
 }
 
 /* inicio del header */
-
-header {
-	position: sticky;
-	top: 0%;
-}
 
 .logo {
 	width: 2rem;
@@ -34,17 +30,24 @@ header nav ul li {
 	}
 }
 
+.navbar-toggler {
+	margin: 0rem 1rem;
+}
+
 /* fin del header */
 
 /* inicio del main index */
 
 .imagen-index-superior {
-	height: 50%;
 	width: 100%;
 }
 
+.container-fluid {
+	padding: 0rem;
+}
+
 .imagen-index-inferior {
-	width: 40%;
+	width: 90%;
 	height: auto;
 	border-radius: 10px;
 }
