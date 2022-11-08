@@ -6,7 +6,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	line-height: 1.3;
 	font-size: 100%;
-	background-color: #fbfdfd;
+	background-color: #006969;
 }
 
 /* inicio del header */
@@ -14,36 +14,24 @@ body {
 header {
 	position: sticky;
 	top: 0%;
-	padding: 0.75rem;
-	background-color: white;
-	height: 1.5rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-bottom: 0.5px solid black;
-}
-
-header a {
-	color: #000;
-	text-decoration: none;
-}
-
-header a:hover {
-	color: rgb(180, 43, 173);
 }
 
 .logo {
-	width: 4.5rem;
-	padding-top: 2rem;
-	margin-left: 10rem;
+	width: 2rem;
+	margin: 0rem 5rem;
+	transform: scale(1.6);
 }
 
 header nav ul li {
-	text-align: center;
-	list-style: none;
-	padding: 0.4rem 4rem;
-	display: inline-block;
-	text-decoration: none;
+	padding: 0rem 3rem;
+}
+
+@media (min-width: 992px) {
+	.nav-link.active {
+		color: #64a19d;
+		outline: none;
+		border-bottom: 0.25rem solid #64a19d;
+	}
 }
 
 /* fin del header */
@@ -90,7 +78,7 @@ h1 {
 
 /* inicio del main Sobre TomSz */
 
-.sobremi-contenedor{
+.sobremi-contenedor {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -101,7 +89,7 @@ h1 {
 	width: 20rem;
 }
 
-.sobremi{
+.sobremi {
 	display: inline-block;
 	width: 15rem;
 	padding: 5rem;
@@ -138,7 +126,7 @@ h1 {
 
 /* inicio del main contacto */
 
-.contacto-contenedor{
+.contacto-contenedor {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -149,14 +137,13 @@ h1 {
 	width: 35rem;
 }
 
-.contacto-form{
+.contacto-form {
 	display: inline-block;
 	text-decoration: none;
 	width: 15rem;
 	padding: 2rem;
 	border-radius: 10px;
 }
-
 
 /* fin del main contacto */
 
